@@ -1,5 +1,14 @@
 /* General Styles */
-
+.fetchFormButton{
+    background-color: var(--primaey-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
     :root{
         --base-color: #f9f9fb;
         --text-color: #1e1e2f;
